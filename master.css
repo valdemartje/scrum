@@ -4,11 +4,11 @@
   font-style: italic;
 }
 body {                        /*body layout*/
-  background-image: url("bg3.png");
-  background-color: #cccccc;
+  /* background-image: url("bg3.png"); */
+  background-color: rgb(181, 181, 181); 
   background-repeat: repeat;
-  background-size: 250px;
-/* Wrapper */
+  background-size: 100vh;
+/* Wrapper
 max-width: 1200px;
 display: block;
 margin-right: auto;
@@ -17,13 +17,15 @@ background-color: #f2f2f2;
 border-left: 2px ridge;
 border-right: 2px ridge;
 border-bottom: 2px ridge;
-margin-bottom: 80px;
+margin-bottom: 80px; */
 }
-
+/* voor de main */
 main {
   color: #f2f2f2;
   /* margin: 40px, 0, 40px, 0; */
 }
+
+/* onze voorpagina(foto) */
 .bg {
   background-color: #646464;
   /* opacity: 0.8; */
@@ -45,6 +47,7 @@ main {
   padding: 50px auto;
   background-color: #333;
 } */
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -58,6 +61,7 @@ main {
   padding: 2% 2%;
   text-decoration: none;
   font-size: 17px;
+  transition: .6s;
 }
 
 .topnav a:hover {
@@ -73,12 +77,37 @@ main {
 .topnav a.active:hover {
   background-color: blue;
   color: black;
+  transition: .6s;
+}
+/* hier een link naar een loginsysteem */
+a.login {
+  width: auto;
+  text-align: center;
+  float: right;
+  padding: 2% auto;
+  margin-right: 20px;
+  background-color: rgb(181, 181, 181); 
+  transition: .3s;
+  /* background-color: #333; */
+  /* display: inline-block; */
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+  /* box-sizing: border-box; */
 }
 
 .box2 h2 {
   color: black;
   z-index: 5;
   /* vertical-align: text-top; */
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 5%;
+  width: 5%;
 }
 
 .photo img {
@@ -91,18 +120,39 @@ main {
   display: block; */
 }
 
+/*  */
 .photo p {
   float: right;
-  margin-right: 50px;
+  margin-right: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  color: #ff0000;
 }
 
-.pics img {
-  width: 30%;
+/* lettertypes */
+
+/* lettertype voor p */
+p {
+  margin: 50px;
+  color: #333; 
 }
+/* lettertype van eerste p */
+p.eerstep {
+  margin-top: -5px;
+}
+
+p.laatstep {
+  margin-bottom: 6px; 
+}
+
+p.pfooter{
+  color: white;
+}
+
+/* hier onze footer */
 
 .footer {
-  max-width: 1200px;
-  position: fixed;
+  /* max-width: 1200px; */
+  position: relative;
   left: auto;
   right: auto;
   bottom: 0;
@@ -117,6 +167,16 @@ main {
 .footer a {
   color: white;
 }
+
+
+
+
+
+
+
+
+
+
 
 color: #f2f2f2;
   width: 96%;
