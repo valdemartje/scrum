@@ -4,8 +4,8 @@
   font-style: italic;
 }
 body {                        /*body layout*/
-  /* background-image: url("bg3.png"); */
-  background-color: rgb(181, 181, 181); 
+  background-image: url("bg.jpg");
+  /* background-color: rgb(181, 181, 181);  */
   background-repeat: repeat;
   background-size: 100vh;
   cursor: pointer;
@@ -142,7 +142,8 @@ a.login {
   float: right;
   margin: 2% 2% 0 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-  color: #ff0000;
+  color: #ffffff;
+  background-color: rgb(4, 50, 79); 
 }
 
 /* lettertypes */
