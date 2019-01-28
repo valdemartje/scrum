@@ -8,7 +8,7 @@ body {                        /*body layout*/
   background-color: rgb(181, 181, 181); 
   background-repeat: repeat;
   background-size: 100vh;
-  cursor: zoom-in;  
+  cursor: pointer;  
 /* Wrapper
 max-width: 1200px;
 display: block;
@@ -77,9 +77,9 @@ main {
 }
 
 .topnav a.active:hover {
-  background-color: blue;
+  background-color: rgba(230, 145, 89, 0.39);
   color: black;
-  transition: .6s;
+  transition: .30s;
 }
 /* hier een link naar een loginsysteem */
 a.login {
@@ -87,8 +87,8 @@ a.login {
   text-align: center;
   padding: 2% auto;
   margin-right: 20px;
-  background-color: rgb(181, 181, 181); 
-  transition: .3s;
+  background-color: rgb(192, 51, 51); 
+  transition: .30s;
   /* background-color: #333; */
   /* display: inline-block; */
   /* border: 1px solid #ccc; */
@@ -102,6 +102,8 @@ a.login {
   /* vertical-align: text-top; */
 }
 
+/* logo */
+
 .logo {
   float: left;
   margin-top: 10px;
@@ -111,9 +113,17 @@ a.login {
   width: 5%;
 }
 
+
+
+
+/* foto's */
+
+/* foto afmetingen */
 .photo img {
   width: 100%;
-  z-index: 6;
+  height: 100vh; 
+  max-height: 600px;
+  /* z-index: 6; */
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -121,22 +131,32 @@ a.login {
   display: block; */
 }
 
-/*  */
+/* de cite van de foto */
 .photo p {
   float: right;
-  margin-right: 2%;
+  margin: 2% 2% 0 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
   color: #ff0000;
 }
 
+
+
+
+
+
 /* lettertypes */
+
+/* h */
+h1 {
+  margin: 50px 0px 0px 50px;
+  color: #333;
+}
 
 /* lettertype voor p */
 p {
-  margin: 50px;
+  margin: 0px 0px 10px 50px;
   color: #333; 
 }
-/* lettertype van eerste p */
 p.eerstep {
   margin-top: -5px;
 }
@@ -148,6 +168,46 @@ p.laatstep {
 p.pfooter{
   color: white;
 }
+
+
+
+
+
+/* onze forum */
+
+/* hier onze tekstvlak */
+.textforum {
+  margin-left: 60px;
+  background-color: rgb(247, 241, 241);
+  border: 1px solid;
+  border-radius: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.submitAnswer {
+  margin-left: 60px;
+  margin-bottom: 60px;
+  padding: 10px 15px;
+  background-color: #444; 
+  color: #ddd;
+  border: none;
+  border-radius: none;
+  cursor: crosshair;
+  transition: .30s;
+}
+
+.submitAnswer:hover{
+  background-color: antiquewhite;
+  color: #333;
+  border-radius: 10px;
+}
+
+
+
+
+
+
 
 /* hier onze footer */
 
